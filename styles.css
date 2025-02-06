@@ -1,0 +1,50 @@
+body {
+    background: rgb(212, 212, 212);
+    margin: 0;
+    display: grid;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+h1 {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.copy {
+    margin: 100px;
+}
+
+.post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+.post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
